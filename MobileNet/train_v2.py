@@ -126,7 +126,7 @@ def main():
             best_acc = val_accurate
             torch.save(net.state_dict(), save_path)
 
-    print('Finished Training')
+    print('Finished Training -- 结束啦！')
 
 
 if __name__ == '__main__':
